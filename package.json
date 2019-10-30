@@ -1,0 +1,20 @@
+{
+  "name": "qzx_autossh",
+  "version": "1.0.9",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autossh": "^0.2.0",
+    "yargs": "^10.1.1"
+  },
+  "bin": {
+    "qzx_autossh": "index.js",
+    "qzx_sit": "sit.js"
+  }
+}
